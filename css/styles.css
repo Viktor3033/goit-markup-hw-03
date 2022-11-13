@@ -20,6 +20,10 @@ ul {
   padding: 0;
 }
 
+img {
+  display: block;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -27,9 +31,17 @@ ul {
   margin: 0 auto;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .header-container {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .navigation {
@@ -50,8 +62,6 @@ ul {
   line-height: 1.1923;
   color: rgba(33, 150, 243, 1);
   text-decoration: none;
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 .studio {
   color: rgba(0, 0, 0, 1);
@@ -94,12 +104,14 @@ ul {
 }
 
 .hero-container {
+  background-color: rgba(47, 48, 58, 1);
   margin-left: auto;
   margin-right: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero {
-  background-color: rgba(47, 48, 58, 1);
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -137,11 +149,6 @@ ul {
   background-color: rgba(24, 140, 232, 1);
 }
 
-.features {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .features-container {
   justify-content: space-between;
 }
@@ -167,11 +174,6 @@ ul {
   max-width: 270px;
 }
 
-.examples {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .examples-title {
   font-weight: 700;
   font-size: 36px;
@@ -185,10 +187,8 @@ ul {
   gap: 30px;
 }
 
-.team {
+.section-team {
   background-color: rgba(245, 244, 250, 1);
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .team-list {
@@ -269,21 +269,25 @@ ul {
 }
 
 .btn-list {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-  padding-top: 94px;
   margin-bottom: 34px;
+  max-width: 575px;
+  max-height: 54px;
 }
-
 .btn-click {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
+  letter-spacing: 0.03em;
   color: rgba(33, 33, 33, 1);
   cursor: pointer;
+  padding: 6px 22px;
+  background-color: rgba(245, 244, 250, 1);
+  border-radius: 4px;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .btn-click:hover,
 .btn-click:focus {
@@ -292,13 +296,21 @@ ul {
 }
 
 .projects {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
+}
+
+.project-border {
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid #eeeeee;
 }
 
 .project {
-  margin-bottom: 30px;
+  flex-basis: calc((100%-60px) / 3);
 }
-
+.project-list {
+  flex-wrap: wrap;
+  gap: 30px;
+}
 .projects-link-title {
   font-size: 18px;
   line-height: 2;
@@ -311,6 +323,7 @@ ul {
   font-size: 16px;
   line-height: 1.875;
   color: rgba(117, 117, 117, 1);
+  padding-bottom: 20px;
 }
 .projects-link {
   text-decoration: none;
