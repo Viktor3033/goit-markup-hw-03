@@ -5,6 +5,33 @@ body {
   line-height: 1.7142;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 .header-logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -44,6 +71,8 @@ body {
 }
 .hero {
   background-color: rgba(47, 48, 58, 1);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   font-weight: 900;
@@ -53,6 +82,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 1);
+  margin-bottom: 30px;
 }
 .hero-button {
   background: rgba(33, 150, 243, 1);
@@ -71,6 +101,12 @@ body {
 .hero-button:focus {
   background-color: rgba(24, 140, 232, 1);
 }
+
+.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .hiden {
   display: none;
 }
@@ -81,19 +117,29 @@ body {
 .features-text {
   color: rgba(117, 117, 117, 1);
 }
+
+.examples {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .examples-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1666;
   color: rgba(33, 33, 33, 1);
+  margin-bottom: 50px;
 }
 .team {
   background-color: rgba(245, 244, 250, 1);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-main {
   font-size: 36px;
   line-height: 1.1666;
   color: rgba(33, 33, 33, 1);
+  margin-bottom: 50px;
 }
 .team-title {
   font-weight: 500;
@@ -108,6 +154,8 @@ body {
 }
 .footer {
   background-color: rgba(47, 48, 58, 1);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-logo {
   font-family: "Raleway";
@@ -123,6 +171,7 @@ body {
 
 .address {
   font-style: normal;
+  margin-top: 20px;
 }
 .address-map {
   color: rgba(255, 255, 255, 1);
@@ -142,6 +191,15 @@ body {
   color: rgba(33, 150, 243, 1);
 }
 
+.btn-list {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  padding-top: 94px;
+  margin-bottom: 34px;
+}
+
 .btn-click {
   font-family: inherit;
   font-weight: 500;
@@ -156,11 +214,21 @@ body {
   color: rgba(255, 255, 255, 1);
 }
 
+.projects {
+  margin-bottom: 94px;
+}
+
+.project {
+  margin-bottom: 30px;
+}
+
 .projects-link-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: rgba(33, 33, 33, 1);
+  margin-top: 20px;
+  margin-bottom: 4px;
 }
 .projects-link-text {
   font-size: 16px;
