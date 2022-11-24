@@ -39,7 +39,6 @@ img {
 .header-container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid rgba(236, 236, 236, 1);
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -51,8 +50,7 @@ img {
 }
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 
 .header-logo {
@@ -129,6 +127,7 @@ img {
   margin-right: auto;
 }
 .hero-button {
+  border: none;
   background: rgba(33, 150, 243, 1);
   font-family: inherit;
   font-weight: 700;
@@ -141,6 +140,7 @@ img {
   color: rgba(255, 255, 255, 1);
   cursor: pointer;
   border-radius: 4px;
+  padding: 10px 32px 10px 32px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -160,6 +160,11 @@ img {
 .hiden {
   display: none;
 }
+
+.features-section {
+  padding-bottom: 0;
+}
+
 .features-title {
   line-height: 1.1428;
   color: rgba(33, 33, 33, 1);
@@ -206,6 +211,7 @@ img {
 .team-item {
   background-color: rgba(255, 255, 255, 1);
   border-radius: 0px 0px 4px 4px;
+  padding-bottom: 30px;
 }
 
 .team-title {
@@ -222,7 +228,6 @@ img {
   line-height: 1.1875;
   text-align: center;
   color: rgba(117, 117, 117, 1);
-  padding-bottom: 30px;
 }
 .footer {
   background-color: rgba(47, 48, 58, 1);
@@ -232,6 +237,11 @@ img {
 .footer-list {
   list-style: none;
 }
+
+.footer-link {
+  margin-bottom: 9px;
+}
+
 .footer-logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -269,11 +279,16 @@ img {
 }
 
 .btn-list {
+  gap: 8px;
   margin-bottom: 34px;
   max-width: 575px;
   max-height: 54px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .btn-click {
+  border: none;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -300,8 +315,10 @@ img {
 }
 
 .project-border {
+  border-top: 0;
   background-color: rgba(255, 255, 255, 1);
   border: 1px solid #eeeeee;
+  padding: 20px 24px 20px 24px;
 }
 
 .project {
@@ -323,7 +340,6 @@ img {
   font-size: 16px;
   line-height: 1.875;
   color: rgba(117, 117, 117, 1);
-  padding-bottom: 20px;
 }
 .projects-link {
   text-decoration: none;
