@@ -166,6 +166,7 @@ img {
 }
 
 .features-title {
+  font-size: 14px;
   line-height: 1.1428;
   color: rgba(33, 33, 33, 1);
   margin-bottom: 10px;
@@ -280,7 +281,7 @@ img {
 
 .btn-list {
   gap: 8px;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   max-width: 575px;
   max-height: 54px;
   margin-left: auto;
@@ -322,7 +323,7 @@ img {
 }
 
 .project {
-  flex-basis: calc((100%-60px) / 3);
+  flex-basis: calc((100% - 60px) / 3);
 }
 .project-list {
   flex-wrap: wrap;
